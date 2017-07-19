@@ -1,3 +1,5 @@
-src/Places.Server/obj/
-src/Places.Server/bin/
-/packages
+bin/
+obj/
+packages/
+build/
+
