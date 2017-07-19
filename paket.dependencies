@@ -1,2 +1,5 @@
 source https://www.nuget.org/api/v2
 nuget Suave
+nuget Microsoft.NETCore.Platforms >= 2.0.0-preview2-25405-01
+nuget NETStandard.Library >= 2.0.0-preview2-25401-01
+nuget FSharp.Data
