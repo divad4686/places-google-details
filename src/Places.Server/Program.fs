@@ -1,5 +1,4 @@
 ﻿// Learn more about F# at http://fsharp.org
-
 open System
 open System.Threading
 open Suave
@@ -8,8 +7,6 @@ open FSharp.Data
 type NugetStats = HtmlProvider<"https://www.nuget.org/packages/FSharp.Data">
 [<EntryPoint>]
 let main argv =
-    
-
     let rawStats = NugetStats().Tables.``Version History``
 
     do rawStats.Rows |> Seq.iter (printfn "row = %A")
